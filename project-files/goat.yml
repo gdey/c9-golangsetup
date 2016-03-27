@@ -1,0 +1,8 @@
+{
+init_tasks : [ { command : "go get golang.org/x/tools/cmd/goimports", } ],
+watchers : [ {
+    extension: go,
+    tasks: [ { command: "/home/ubuntu/workspace/bin/goimports -l -w ./" } ],
+}],
+}
+
