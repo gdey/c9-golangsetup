@@ -9,7 +9,7 @@ function goget (){
 
 project_files=$(echo ~/project-files)
 runners_dir=$(echo ~/workspace/.c9/runners)
-home_url='https://raw.github.com/gdey/c9-golangsetup/master'
+home_url='https://raw.githubusercontent.com/gdey/c9-golangsetup/master'
 
 echo "We are going to setup some tools"
 goget goimports golang.org/x/tools/cmd/goimports
